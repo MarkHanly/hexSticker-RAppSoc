@@ -71,10 +71,12 @@ sysfonts::font_add_google("Tangerine", regular.wt = 700)
 showtext::showtext_auto()
 
 # Create sticker
-p <- sticker(img, package="R Appreciation Society", p_color = '#63100a', p_family = "Tangerine",
-        p_size=16, s_x=1, s_y=.75,
-        h_fill = '#ded3bf',
-        h_color = '#b68e59'
+p <- sticker(img, 
+             package="R Appreciation Society", p_color = '#63100a',
+             p_family = "Tangerine",
+             p_size=16, s_x=1, s_y=.75,
+             h_fill = '#ded3bf',
+             h_color = '#b68e59')
 
 plot(p)
 ```
